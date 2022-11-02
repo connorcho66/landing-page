@@ -1,7 +1,7 @@
 *{
   box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+  padding: auto;
+  margin: auto;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   /* background-color: rgb(34, 34, 59); */
 }
@@ -13,14 +13,18 @@ body {
 
 .header {
   position: fixed;
+  z-index: 1;
   width: 100%;
-}
-
-.header {
   padding: 13px;
   background-color: rgb(201,173,167);
   color: rgb(34, 34, 59);
 }
+
+/* .header {
+  padding: 13px;
+  background-color: rgb(201,173,167);
+  color: rgb(34, 34, 59);
+} */
 
 .header h1 {
   display: inline-block;
@@ -46,4 +50,75 @@ a{
   color: rgb(34, 34, 59);
   text-decoration: none;
 
+}
+
+.main-body {
+  display: inline-block;
+  margin-block-start: 120px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* .profile {
+  margin-left: 100%;
+} */
+
+.main-image{
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border-radius: 6%;
+  border: 10px solid rgb(74,78,105);
+  position: relative;
+  margin-left: 42%;
+}
+
+.profile h2 {
+  text-align: center;
+  font-size: 50px;
+  color: rgb(242,233,228);
+  /* margin-left: 750px; */
+}
+
+/* .profile {
+  text-align: center;
+  font-size: 30px;
+} */
+
+p {
+  text-align: center;
+  font-size: 18px;
+  color: rgb(242,233,228)
+}
+
+.input {
+  background-color: rgb(201,173,167);
+  width: 100%;
+  margin-top: 50px;
+  padding-bottom: 25px;
+}
+
+.input h3{
+  text-align: center;
+  font-size: 30px;
+  color: rgb(34, 34, 59);
+}
+
+input {
+  width: 15%;
+}
+
+#fname{
+  margin-left:27px;
+}
+
+.input ul{
+  text-align: center;
+  list-style-type: none;
+}
+
+footer {
+  text-align: center;
+  font-size: 10px;
+  color: rgb(242,233,228) ;
 }
